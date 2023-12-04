@@ -1,0 +1,132 @@
+Тест 1 - maxperformance-20231204080208943
+rampUsersPerSec(0) to 100 during(15 minutes),
+constantUsersPerSec(100) during(30 minutes)
+
+================================================================================
+---- Global Information --------------------------------------------------------
+> request count                                     517522 (OK=517522 KO=0     )
+> min response time                                     92 (OK=92     KO=-     )
+> max response time                                   5352 (OK=5352   KO=-     )
+> mean response time                                   130 (OK=130    KO=-     )
+> std deviation                                        195 (OK=195    KO=-     )
+> response time 50th percentile                        104 (OK=104    KO=-     )
+> response time 75th percentile                        109 (OK=109    KO=-     )
+> response time 95th percentile                        171 (OK=171    KO=-     )
+> response time 99th percentile                        804 (OK=804    KO=-     )
+> mean requests/sec                                191.959 (OK=191.959 KO=-     )
+---- Response Time Distribution ------------------------------------------------
+> t < 800 ms                                        512318 ( 99%)
+> 800 ms <= t < 1200 ms                               1814 (  0%)
+> t >= 1200 ms                                        3390 (  1%)
+> failed                                                 0 (  0%)
+================================================================================
+
+Тест 2 - maxperformance-20231204085632695 FAILED
+rampUsersPerSec(0) to 200 during(15 minutes),
+constantUsersPerSec(200) during(30 minutes)
+================================================================================
+---- Global Information --------------------------------------------------------
+> request count                                    1035328 (OK=253823 KO=781505)
+> min response time                                     90 (OK=92     KO=90    )
+> max response time                                  60020 (OK=14268  KO=60020 )
+> mean response time                                  2089 (OK=368    KO=2648  )
+> std deviation                                       7303 (OK=972    KO=8311  )
+> response time 50th percentile                        103 (OK=110    KO=102   )
+> response time 75th percentile                        128 (OK=183    KO=107   )
+> response time 95th percentile                      15186 (OK=1848   KO=19980 )
+> response time 99th percentile                      39206 (OK=4724   KO=42201 )
+> mean requests/sec                                383.739 (OK=94.078 KO=289.661)
+---- Response Time Distribution ------------------------------------------------
+> t < 800 ms                                        235304 ( 23%)
+> 800 ms <= t < 1200 ms                               3797 (  0%)
+> t >= 1200 ms                                       14722 (  1%)
+> failed                                            781505 ( 75%)
+---- Errors --------------------------------------------------------------------
+> status.find.is(200), but actually found 503                    671715 (85,95%)
+> status.find.is(200), but actually found 502                     74362 ( 9,52%)
+> status.find.is(200), but actually found 504                     31042 ( 3,97%)
+> Request timeout to 91.185.85.213/91.185.85.213:80 after 60000    3921 ( 0,50%)
+ms
+> status.find.is(200), but actually found 500                       465 ( 0,06%)
+================================================================================
+
+Тест 3 - maxperformance-20231204094934911 FAILED
+rampUsersPerSec(0) to 150 during(15 minutes),
+constantUsersPerSec(150) during(30 minutes)
+================================================================================
+---- Global Information --------------------------------------------------------
+> request count                                     776182 (OK=205151 KO=571031)
+> min response time                                     90 (OK=92     KO=90    )
+> max response time                                  60018 (OK=38422  KO=60018 )
+> mean response time                                  1952 (OK=417    KO=2504  )
+> std deviation                                       7657 (OK=1536   KO=8814  )
+> response time 50th percentile                        102 (OK=107    KO=100   )
+> response time 75th percentile                        111 (OK=133    KO=105   )
+> response time 95th percentile                      13427 (OK=1271   KO=18871 )
+> response time 99th percentile                      43565 (OK=6833   KO=50294 )
+> mean requests/sec                                287.795 (OK=76.066 KO=211.728)
+---- Response Time Distribution ------------------------------------------------
+> t < 800 ms                                        193957 ( 25%)
+> 800 ms <= t < 1200 ms                                813 (  0%)
+> t >= 1200 ms                                       10381 (  1%)
+> failed                                            571031 ( 74%)
+---- Errors --------------------------------------------------------------------
+> status.find.is(200), but actually found 503                    484826 (84,90%)
+> status.find.is(200), but actually found 502                     67614 (11,84%)
+> status.find.is(200), but actually found 504                     12416 ( 2,17%)
+> Request timeout to 91.185.85.213/91.185.85.213:80 after 60000    5419 ( 0,95%)
+ms
+> status.find.is(200), but actually found 500                       756 ( 0,13%)
+================================================================================
+
+Тест 4 - maxperformance-20231204104611990
+rampUsersPerSec(0) to 125 during(15 minutes),
+constantUsersPerSec(125) during(30 minutes)
+================================================================================
+---- Global Information --------------------------------------------------------
+> request count                                     646876 (OK=646876 KO=0     )
+> min response time                                     91 (OK=91     KO=-     )
+> max response time                                  18307 (OK=18307  KO=-     )
+> mean response time                                   167 (OK=167    KO=-     )
+> std deviation                                        292 (OK=292    KO=-     )
+> response time 50th percentile                        105 (OK=105    KO=-     )
+> response time 75th percentile                        128 (OK=128    KO=-     )
+> response time 95th percentile                        335 (OK=335    KO=-     )
+> response time 99th percentile                       1582 (OK=1582   KO=-     )
+> mean requests/sec                                 239.85 (OK=239.85 KO=-     )
+---- Response Time Distribution ------------------------------------------------
+> t < 800 ms                                        633322 ( 98%)
+> 800 ms <= t < 1200 ms                               4233 (  1%)
+> t >= 1200 ms                                        9321 (  1%)
+> failed                                                 0 (  0%)
+================================================================================
+
+Тест 5 - maxperformance-20231204113812011
+rampUsersPerSec(0) to 135 during(15 minutes),
+constantUsersPerSec(135) during(30 minutes)
+================================================================================
+---- Global Information --------------------------------------------------------
+> request count                                     698550 (OK=407701 KO=290849)
+> min response time                                     90 (OK=92     KO=90    )
+> max response time                                  60025 (OK=56504  KO=60025 )
+> mean response time                                  2249 (OK=423    KO=4809  )
+> std deviation                                       8387 (OK=1526   KO=12427 )
+> response time 50th percentile                        105 (OK=106    KO=103   )
+> response time 75th percentile                        137 (OK=132    KO=172   )
+> response time 95th percentile                      15104 (OK=1642   KO=36126 )
+> response time 99th percentile                      51897 (OK=6472   KO=60006 )
+> mean requests/sec                                 259.01 (OK=151.168 KO=107.842)
+---- Response Time Distribution ------------------------------------------------
+> t < 800 ms                                        382149 ( 55%)
+> 800 ms <= t < 1200 ms                               3063 (  0%)
+> t >= 1200 ms                                       22489 (  3%)
+> failed                                            290849 ( 42%)
+---- Errors --------------------------------------------------------------------
+> status.find.is(200), but actually found 503                    229207 (78,81%)
+> status.find.is(200), but actually found 502                     41226 (14,17%)
+> status.find.is(200), but actually found 504                     15174 ( 5,22%)
+> Request timeout to 91.185.85.213/91.185.85.213:80 after 60000    4855 ( 1,67%)
+ms
+> status.find.is(200), but actually found 500                       387 ( 0,13%)
+================================================================================
+

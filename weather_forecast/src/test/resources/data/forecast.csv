@@ -1,0 +1,2 @@
+forecastId, cityId, dateTime, temperature, summary
+1, 1, 20231014, 15, "Хорошая погода"
